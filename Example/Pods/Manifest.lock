@@ -1,0 +1,68 @@
+PODS:
+  - AFNetworking (3.2.0):
+    - AFNetworking/NSURLSession (= 3.2.0)
+    - AFNetworking/Reachability (= 3.2.0)
+    - AFNetworking/Security (= 3.2.0)
+    - AFNetworking/Serialization (= 3.2.0)
+    - AFNetworking/UIKit (= 3.2.0)
+  - AFNetworking/NSURLSession (3.2.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.0)
+  - AFNetworking/Security (3.2.0)
+  - AFNetworking/Serialization (3.2.0)
+  - AFNetworking/UIKit (3.2.0):
+    - AFNetworking/NSURLSession
+  - Expecta (1.0.6)
+  - "Expecta+Snapshots (3.1.1)":
+    - Expecta (~> 1.0)
+    - FBSnapshotTestCase/Core (~> 2.0)
+    - Specta (~> 1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - Reachability (3.2)
+  - SHLogger (0.8.0):
+    - AFNetworking (~> 3.2)
+    - Reachability (~> 3.2)
+    - SSZipArchive (~> 2.1)
+  - Specta (1.0.7)
+  - SSZipArchive (2.1.2)
+
+DEPENDENCIES:
+  - Expecta
+  - "Expecta+Snapshots"
+  - FBSnapshotTestCase
+  - SHLogger (from `../`)
+  - Specta
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - Expecta
+    - "Expecta+Snapshots"
+    - FBSnapshotTestCase
+    - Reachability
+    - Specta
+    - SSZipArchive
+
+EXTERNAL SOURCES:
+  SHLogger:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: 8ac6017b94ea105479f7776e5288e48ae9c59bb4
+  Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
+  "Expecta+Snapshots": dcff217eef506dabd6dfdc7864ea2da321fafbb8
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  SHLogger: 41d46c6125f02857d904a52cbae58e8a5afba59b
+  Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
+  SSZipArchive: d4009d2ce5520a421f231fd97028cc0e2667eed8
+
+PODFILE CHECKSUM: 2dbf085a954201da17d8c3e76adb9fcbf9b35493
+
+COCOAPODS: 1.5.0

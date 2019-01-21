@@ -1,0 +1,6 @@
+framework module SHLogger {
+  umbrella header "SHLogger-umbrella.h"
+
+  export *
+  module * { export * }
+}

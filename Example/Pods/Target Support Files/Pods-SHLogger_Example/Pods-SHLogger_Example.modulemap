@@ -1,0 +1,6 @@
+framework module Pods_SHLogger_Example {
+  umbrella header "Pods-SHLogger_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

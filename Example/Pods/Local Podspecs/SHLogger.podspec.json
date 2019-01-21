@@ -1,0 +1,36 @@
+{
+  "name": "SHLogger",
+  "version": "1.7.0",
+  "summary": "It is a module to collect logs.",
+  "description": "这是一个日志收集模块，使用者可以通过配置指定实时上传日志，或是通过指令上传日志， 也可以通过Airdrop分享日志到Mac或是其它支持\nAirdrop的苹果设备.",
+  "homepage": "http://evergrande.cn/",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "maoyifeng": "maoyifeng@evergrande.cn"
+  },
+  "source": {
+    "git": "ssh://git@gitlab.egtest.cn:10022/ios/SHLogger.git",
+    "tag": "1.7.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SHLogger/Classes/**/*.{h,m,mm,cc}",
+  "xcconfig": {
+    "HEADER_SEARCH_PATHS": "\"${PODS_ROOT}/*\""
+  },
+  "dependencies": {
+    "Reachability": [
+      "~>3.2"
+    ],
+    "AFNetworking": [
+      "~>3.2"
+    ],
+    "SSZipArchive": [
+      "~>2.1"
+    ]
+  }
+}
